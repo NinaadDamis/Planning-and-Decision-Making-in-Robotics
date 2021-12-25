@@ -4,9 +4,9 @@
 
  ## CATCHING A MOVING TARGET
 #### Map 1
-![me](https://github.com/NinaadDamis/Planning-and-Decision-Making-in-Robotics/blob/main/gifs/map1_gif.mp4)
+<!-- ![me](https://github.com/NinaadDamis/Planning-and-Decision-Making-in-Robotics/blob/main/gifs/map1_gif.mp4) -->
 
-<img src="https://github.com/NinaadDamis/Planning-and-Decision-Making-in-Robotics/blob/main/gifs/map1_gif.mp4" width="500">
+<img src="https://github.com/NinaadDamis/Planning-and-Decision-Making-in-Robotics/blob/main/gifs/map1_gif.gif" width="500">
 
 
 #### Map 2
