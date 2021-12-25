@@ -15,7 +15,7 @@
 
 #### Map 3
 
-<img src="https://github.com/NinaadDamis/Planning-and-Decision-Making-in-Robotics/blob/main/gifs/map3_gif.gif" width="500">
+<img src="https://github.com/NinaadDamis/Planning-and-Decision-Making-in-Robotics/blob/main/gifs/map6_gif.gif" width="500">
 
 
  ## PLANNING FOR n-DOF ARMS
