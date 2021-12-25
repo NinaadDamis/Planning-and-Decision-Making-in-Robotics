@@ -1,0 +1,160 @@
+goalQ4 = [1.4083, -1.0358+2*pi, 1.0068, 1.063, 1.1814];
+startQ4 = [1.6263, 0.12458, 1.8948, -2.8171+2*pi, -1.3302+2*pi];
+startQ3 = [pi/2 pi/2 pi/2 pi+1e-1 pi pi/2];
+goalQ3 = [pi/8 3*pi/4 pi 0.9*pi 1.5*pi pi/4];
+startQ2 = [pi/2 pi/2 pi/2 pi+1e-1];
+goalQ2 = [pi/2 pi/2 pi/2 pi-1e-1];
+startQ1 = [pi/2, pi/2];
+goalQ1 = [pi/2, -pi/4+2*pi];
+mex planner.cpp
+Building with 'Microsoft Visual C++ 2019'.
+MEX completed successfully.
+
+runtest('map2.txt',startQ3,goalQ3,3);
+Roadmap graph was empty. Running first time 
+Size of Roadmap graph is 3000
+ Successfully connected start position to roadmap 
+ *********************************************************************************************** 
+ Coudnt connect goal position to roadmap 
+ Coudnt connect goal position to roadmap 
+ Successfully connected goal position to roadmap 
+***************************************************************************************************
+Check if start init and goal init are connected - 1
+Calling ASTAR Function
+ Start Backtracking to get path 
+PLan length is 14
+Cost of path is 18.8186
+Time taken for planning is 88.0722
+planner returned plan of length=14
+plan of length 14 was found
+runtest('map2.txt',startQ4,goalQ4,3);
+Roadmap graph is not empty. Only query phase required 
+Size of Roadmap graph is 3000
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Coudnt connect start position to roadmap 
+ Successfully connected start position to roadmap 
+ *********************************************************************************************** 
+ Successfully connected goal position to roadmap 
+***************************************************************************************************
+Check if start init and goal init are connected - 0
+Start init and goal init are not connected 
+Calling ASTAR Function
+No path found !!!!!!
+the arm is already at the goal
+planner returned plan of length=0
+plan of length 1 was found
+Error: last conf in armplan = 1.63 0.12 1.89 3.47 4.95
+but armgoal = 1.41 5.25 1.01 1.06 1.18
+runtest('map2.txt',startQ1,goalQ1,3);
+Roadmap graph is not empty. Only query phase required 
+Size of Roadmap graph is 3000
+ Successfully connected start position to roadmap 
+ *********************************************************************************************** 
+ Successfully connected goal position to roadmap 
+***************************************************************************************************
+Check if start init and goal init are connected - 0
+Start init and goal init are not connected 
+Calling ASTAR Function
+No path found !!!!!!
+the arm is already at the goal
+planner returned plan of length=0
+plan of length 1 was found
+Error: last conf in armplan = 1.57 1.57
+but armgoal = 1.57 5.50
+runtest('map2.txt',startQ2,goalQ2,3);
+Roadmap graph is not empty. Only query phase required 
+Size of Roadmap graph is 3000
+ Successfully connected start position to roadmap 
+ *********************************************************************************************** 
+ Successfully connected goal position to roadmap 
+***************************************************************************************************
+Check if start init and goal init are connected - 1
+Calling ASTAR Function
+ Start Backtracking to get path 
+PLan length is 3
+Cost of path is 4.81013
+Time taken for planning is 0.0010339
+planner returned plan of length=3
+plan of length 3 was found
+diary off
